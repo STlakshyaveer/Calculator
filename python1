@@ -1,0 +1,21 @@
+x = float(input('enter your first number: '))
+ a = input('enter your operator: ')
+ y = float(input('enter your second number: '))
+
+
+ if a == '+':
+     
+     print(x + y)
+     
+ elif a == '-':
+     print(x - y)
+     
+ elif a == '*':
+     print(x * y)
+     
+ elif a == '/':
+     print(x / y)
+     
+ else:
+     print('Invalid information')
+ 
